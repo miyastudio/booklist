@@ -1,0 +1,24 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "书单 其实只是不想重复购买书籍，所以，才做了这个书单。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyastudio/booklist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyastudio/booklist/issues"
+  },
+  "homepage": "https://github.com/miyastudio/booklist#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "readjson": "^1.1.3"
+  }
+}

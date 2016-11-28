@@ -1,0 +1,18 @@
+{
+  "name": "booklist",
+  "description": "书单 其实只是不想重复购买书籍，所以，才做了这个书单。",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/miyastudio/booklist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.9",
+    "weui": "^1.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/lib/weui/dist/style/weui.min.css"/>
+    <script src="/lib/angular/angular.min.js"></script>
+</head>
+<body ng-app="App">
+    <div ng-controller="list">
+        <div ng-repeat="book in books">
+            <li>
+                {{book.title}}
+                <button ng-click="del(this)">del</button>
+            </li>
+        </div>
+        <button ng-click="update()">update</button>
+    </div>
+    <div ng-controller="page">
+
+    </div>
+    <div ng-controller="book">
+        
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
